@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <h1>회원가입</h1>
+  <form action="login.html" method="get">
+    <label for="name">이름:</label>
+    <input type="text" id="name" name="name" autofocus required><br><br>
+
+    <label for="email">이메일:</label>
+    <input type="email" id="email" name="email" placeholder="abc@example.com" required><br><br>
+
+    <label for="age">나이:</label>
+    <input type="number" id="age" name="age" step="1" required><br><br>
+
+    <label for="password">비밀번호:</label>
+    <input type="password" id="password" name="password" autocomplete="new-password" required><br><br>
+
+    <label for="birth">생년월일:</label>
+    <input type="date" id="birth" name="birth" required><br><br>
+
+    <label for="major">전공:</label>
+    <select id="major" name="major">
+      <option value="cs">컴퓨터공학</option>
+      <option value="ee">전자공학</option>
+      <option value="biz">경영학</option>
+      <option value="psy">심리학</option>
+      <option value="bio">생물학</option>
+    </select><br><br>
+
+    <label>성별:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">남자</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">여자</label><br><br>
+
+    <button type="submit">로그인</button>
+  </form>
+</body>
+</html>
