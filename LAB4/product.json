@@ -1,0 +1,24 @@
+[
+    {
+      "title": "어바웃 타임",
+      "overview": "시간을 되돌릴 수 있는 능력을 가진 남자의 따뜻한 사랑 이야기.",
+      "release_date": "2013-09-04",
+      "vote_average": 8.1,
+      "image": "abouttime.jpg"
+    },
+    {
+      "title": "윈드 리버",
+      "overview": "눈 덮인 대지에서 벌어지는 미스터리 범죄 수사극.",
+      "release_date": "2017-01-21",
+      "vote_average": 7.8,
+      "image": "windriver.jpg"
+    },
+    {
+      "title": "덩케르크",
+      "overview": "제2차 세계대전 중 덩케르크 철수 작전을 그린 실화 기반 전쟁 영화.",
+      "release_date": "2017-07-21",
+      "vote_average": 7.5,
+      "image": "dunkirk.jpg"
+    }
+  ]
+  
