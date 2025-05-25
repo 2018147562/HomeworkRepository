@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .nav {
+    margin-bottom: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: 2px solid black;
+    display: inline-block;
+  }
+  
+  .nav a.active {
+    color: red;
+    border-color: red;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sort-section {
+    margin-bottom: 20px;
+  }
+  
+  #movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .movie {
+    width: 260px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .poster {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .poster img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+  }
+  
+  .poster .overview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    padding: 10px;
+    font-size: 14px;
+    overflow-y: auto;
+  }
+  
+  .poster:hover .overview {
+    opacity: 1;
+  }
+  
+  .info {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .about {
+    margin-top: 40px;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+  }
+  
